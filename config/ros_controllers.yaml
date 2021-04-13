@@ -37,7 +37,7 @@ controller_list:
       - edo_joint_4
       - edo_joint_5
       - edo_joint_6
-  - name: "" 
+  - name: "grip" 
     action_ns: gripper_action 
     type: GripperCommand 
     default: true 
