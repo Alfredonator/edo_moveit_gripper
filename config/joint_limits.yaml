@@ -24,31 +24,31 @@ joint_limits:
     max_acceleration: 0
   edo_joint_1:
     has_velocity_limits: true
-    max_velocity: 0.5
-    has_acceleration_limits: false
-    max_acceleration: 0
+    max_velocity: 0.3
+    has_acceleration_limits: true
+    max_acceleration: 0.5
   edo_joint_2:
     has_velocity_limits: true
-    max_velocity: 0.5
-    has_acceleration_limits: false
-    max_acceleration: 0
+    max_velocity: 0.3
+    has_acceleration_limits: true
+    max_acceleration: 0.5
   edo_joint_3:
     has_velocity_limits: true
-    max_velocity: 0.5
-    has_acceleration_limits: false
-    max_acceleration: 0
+    max_velocity: 0.3
+    has_acceleration_limits: true
+    max_acceleration: 0.5
   edo_joint_4:
     has_velocity_limits: true
-    max_velocity: 0.5
-    has_acceleration_limits: false
-    max_acceleration: 0
+    max_velocity: 0.3
+    has_acceleration_limits: true
+    max_acceleration: 0.5
   edo_joint_5:
     has_velocity_limits: true
-    max_velocity: 0.5
-    has_acceleration_limits: false
-    max_acceleration: 0
+    max_velocity: 0.3
+    has_acceleration_limits: true
+    max_acceleration: 0.5
   edo_joint_6:
     has_velocity_limits: true
-    max_velocity: 0.5
-    has_acceleration_limits: false
-    max_acceleration: 0
+    max_velocity: 0.3
+    has_acceleration_limits: true
+    max_acceleration: 0.5

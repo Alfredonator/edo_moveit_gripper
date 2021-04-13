@@ -37,9 +37,9 @@ controller_list:
       - edo_joint_4
       - edo_joint_5
       - edo_joint_6
-#  - name: hand_controller 
-#    action_ns: gripper_action 
-#    type: GripperCommand 
-#    default: true 
-#    joints:
-#      - edo_gripper_right_finger_joint
+  - name: "" 
+    action_ns: gripper_action 
+    type: GripperCommand 
+    default: true 
+    joints:
+      - edo_gripper_right_finger_joint
