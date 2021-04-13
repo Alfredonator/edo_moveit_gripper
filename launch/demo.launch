@@ -35,7 +35,7 @@
   <include unless="$(arg simulated)" file="$(find edo_control)/launch/control.launch"/>
 
   <!-- Load robot grip controller -->
-  <include unless="$(arg simulated)" file="$(find edo_grip_controller)/launch/control.launch"/>
+  <include unless="$(arg simulated)" file="$(find edo_control)/launch/control_grip.launch"/>
 
   <!-- We do not have a robot connected, so publish fake joint states -->
   <node  if="$(arg simulated)" name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
