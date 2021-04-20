@@ -17,6 +17,10 @@
   <!-- Set to true if you want this demo to run without a real eDO connected -->
   <arg name="simulated" default="false" />
 
+  <!-- adding planning context -->
+  <include file="$(find edo_moveit_gripper)/launch/planning_context.launch">
+    <arg name="load_robot_description" value="true"/>
+  </include>
   <!--
   By default, hide joint_state_publisher's GUI
 
@@ -33,7 +37,7 @@
 
   <!-- Load the robot arm controllers -->
   <include unless="$(arg simulated)" file="$(find edo_control)/launch/control.launch"/>
-
+½
   <!-- Load robot grip controller -->
   <include unless="$(arg simulated)" file="$(find edo_control)/launch/control_grip.launch"/>
 

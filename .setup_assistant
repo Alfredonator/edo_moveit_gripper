@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: edo_gripper
+    relative_path: urdf/edo_gripper_dummy.urdf.xacro
+    xacro_args: ""
+  SRDF:
+    relative_path: config/edo.srdf
+  CONFIG:
+    author_name: Patrick Vibild
+    author_email: patrickvibild@gmail.com
+    generated_timestamp: 1618233501
