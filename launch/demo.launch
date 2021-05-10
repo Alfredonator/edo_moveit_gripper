@@ -52,6 +52,9 @@
   <!-- Given the published joint states, publish tf for the robot links -->
   <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" respawn="true" output="screen" />
 
+<!-- Attach cameras to world -->
+  <!--node pkg="tf" type="static_transform_publisher" name="camera_side" args="1 0 0 0 0 0 1 world camera_side_link 100" /-->
+
   <!-- Run the main MoveIt! executable without trajectory execution (we do not have controllers configured by default) -->
   <include file="$(find edo_moveit_gripper)/launch/move_group.launch">
     <arg name="allow_trajectory_execution" value="true"/>
