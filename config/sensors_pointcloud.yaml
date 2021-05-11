@@ -4,7 +4,7 @@ sensors:
     image_topic: /camera_side/depth/image_rect_raw
     queue_size: 2
     near_clipping_plane_distance: 0.3
-    far_clipping_plane_distance: 4.0 # default value 4.0
+    far_clipping_plane_distance: 0.4 # default value 4.0
     shadow_threshold: 0.8
     padding_scale: 2.0
     padding_offset: 0.05
