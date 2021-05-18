@@ -67,6 +67,8 @@
         <arg name="load_robot_description" value="$(arg load_robot_description)"/>
     </include>
 
+    <include file="$(find moveit_grasps)/launch/grasp_pipeline_demo.launch"/>
+
     <node pkg="grasper" name="table" type="table.py" output="screen"/>
 
     <!-- Run Rviz and load the default config to see the state of the move_group node -->
